@@ -17,11 +17,11 @@ gcc -Wall -pthread konsument.c -o konsument
 
 Run each process in different terminal.
 - Controller
-  - Type ./sterowanie [number of buffers] in command line (e.g ./sterowanie 10) 
+  - Type `./sterowanie [number of buffers]` in command line (e.g ./sterowanie 10) 
 - Producer
-  - Type ./producent [number of produced elements] in command line (e.g ./producent 8) 
+  - Type `./producent [number of produced elements]` in command line (e.g ./producent 8) 
 - Consumer
-  - Type ./konsument [number of consumed elements] in command line (e.g ./konsument 6) 
+  - Type `./konsument [number of consumed elements]` in command line (e.g ./konsument 6) 
 
 ## Screenshots
 
