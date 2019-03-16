@@ -4,13 +4,14 @@ University project for "Concurrent Programming". Classic multi-process synchroni
 ## Prerequisites
 
 * Linux OS (with POSIX Thread, semaphore and sys/shm libraries)
+* C compiler (e.g. GCC)
 
 ## Compiling
 
 ```
-gcc -Wall -pthread sterowanie.c -o sterowanie
-gcc -Wall -pthread producent.c -o producent
-gcc -Wall -pthread konsument.c -o konsument
+gcc -pthread sterowanie.c -o sterowanie
+gcc -pthread producent.c -o producent
+gcc -pthread konsument.c -o konsument
 ```
 
 ## Running
